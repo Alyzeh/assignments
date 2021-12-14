@@ -47,7 +47,7 @@ if(isset($_GET)){
     else if($_GET['page'] === "deleteContacts"){
    
             require_once('pages/deleteContacts.php');
-            $title = "Delete Contacts()";
+            $title = "Delete Contact(s)";
             $result = init();
       
         
